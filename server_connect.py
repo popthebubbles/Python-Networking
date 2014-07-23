@@ -27,3 +27,5 @@ print 'IP address of', host, 'is', remote_ip
 s.connect((remote_ip, port))
 
 print 'Socket connected to', host, 'on ip', remote_ip
+
+s.close()

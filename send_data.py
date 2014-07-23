@@ -42,3 +42,5 @@ print('Message send successful')
 reply = s.recv(4096)
 
 print reply
+
+s.close()

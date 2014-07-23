@@ -11,3 +11,5 @@ except socket.error, msg:
     sys.exit()
 
 print('Socket Created.')
+
+s.close()
